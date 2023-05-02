@@ -9,7 +9,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      names: {
+      name: {
         type: Sequelize.STRING
       },
       visited: {
