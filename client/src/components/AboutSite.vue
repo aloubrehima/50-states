@@ -1,9 +1,9 @@
 <template>
     <div>
-        <h2>Where have you traveled to</h2>
+        <h2>Where have you traveled to?</h2>
 
         <p>Use this site to keep track of which states you have traveled to</p>
-        <p>A Vue.js site by Alou</p>
+        <p>A Vue.js site by Alou, and it's hosted at Azure!</p>
     </div>
 </template>
 

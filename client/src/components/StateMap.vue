@@ -48,6 +48,7 @@ export default {
                 // 404 not found
                 if ( err.response && err.response.status === 404 ) {
                     this.state.name = '?'  
+                    this.$router.push({ name: 'NotFound'})
                 } else {
                     // 500 server error
                     alert('Sorry, error fetching data about this state')
